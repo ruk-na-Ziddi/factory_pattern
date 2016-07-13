@@ -1,4 +1,4 @@
-package factory_pattern.pkg.pkg;
+package factory_pattern.pkg;
 
 /**
  * Created by ankurks on 7/13/16.
