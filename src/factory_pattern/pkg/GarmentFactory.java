@@ -4,7 +4,7 @@ package factory_pattern.pkg;
  * Created by ankurks on 7/13/16.
  */
 public class GarmentFactory {
-    public Garment GarmentFactory(String type, int periMeter, int length) throws Exception {
+    public static Garment generateGarment(String type, int periMeter, int length) throws Exception {
         switch (type) {
             case "shirt":
                 return new Shirt(periMeter, length);
